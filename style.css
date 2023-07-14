@@ -1,0 +1,610 @@
+
+.Buy{
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 166, 0);
+    color: rgb(0, 0, 0);
+
+}
+
+.Sale{
+    margin: 0;
+    padding: 0;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: -30px;
+    font-family: Arial;
+    color: rgb(67, 67, 211);
+}
+
+.Paragraf3{
+    margin-left: 20px;
+    color: red;
+    font-size: 18px;
+    margin-top: -10px;
+
+}
+
+.Container6{
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.Container8{
+  margin-left: 25px;
+}
+
+
+
+#icon{
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+}
+
+
+.Paragraf1{
+    margin-left: 18px;
+    color: red;
+    font-size: 18px;
+    margin-top: -10px;
+
+}
+
+i{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.HR2{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.Container5{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Name{
+    font-family: Arial;
+    display: flex;
+}
+
+.Paragraf2{
+    margin-left: 315px;
+    font-size: 18px;
+    color: red;
+    margin-top: -10px;
+
+}
+
+.HR3{
+    margin-left: 312px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-top: 10px;
+    
+    
+}
+
+.Container3{
+    width: 400px;
+    display: flex;
+    margin-left: 300px;
+}        
+
+.Product{
+    width: 400px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+
+body {
+    background-color: #f8fafc;
+}
+
+.container1 {
+    padding: 2rem;
+    margin-top:20px;
+}
+
+.slider-wrapper {
+    position: static;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    -ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+    scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    animation: slide 1s infinite;
+
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+    opacity: 1;
+}
+  #Togler{
+    cursor: pointer;
+    float: right;
+    display: none;
+  }
+  label i{
+    font-size: 30px;
+  }
+  label{
+    font-size: 40px;
+    color: white;
+    display: none;            
+}
+    .Home{
+        display: flex;
+        align-items: center;
+    }
+    .Nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: Arial;
+    }
+    .Nav ul li{
+      display: inline-block;
+      font-size: 21px;
+      margin: 0 25px;
+      margin-top: 5px;
+      font-weight: lighter;
+    }
+    .Nav ul li a{
+      color: rgb(32, 32, 32);
+      text-decoration: none;
+      padding: 0 5px;
+
+    }
+    .Nav ul{
+      margin-right: 300px;
+    }
+    .Container10{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @media(max-width: 1200px){
+      .Mtavari3 .Product2{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+      }
+      .Mtavari3 .Product2 .Product4{
+        margin-left: 220px;
+      }
+
+      .Mtavari3 .Product2 .Price{
+        margin-left: 300px;
+      }
+      .Mtavari3 .Product2 .Works{
+        margin-top: 10px;
+      }
+      .Mtavari3{
+        margin-top: -20px;
+      }
+     
+    }
+
+
+
+
+    @media(max-width: 680px){
+      .Mtavari3 .Product2 .Imagee{
+        width: 500px;
+      }
+      .Mtavari3 .Product2 .Price{
+        margin-left: 220px;
+      }
+      .Mtavari3 .Product2 .Product4{
+        margin-left: 150px;
+      }
+    }
+
+
+
+
+    @media(max-width: 1230px){
+
+      .Container5{
+        display: block;
+        display: grid;
+        justify-content: center;
+        place-items: center;
+      }
+      .Logo{
+        margin-left: -5px;
+      }
+      label{
+        display: block;
+        cursor: pointer;
+        margin-right: 80px;
+      }
+      .Nav ul{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(122, 122, 122);
+        top: 50px;
+        position: absolute   ;
+        left: -120%;
+        transition: 0.4s ;
+        text-align: center;
+    } 
+    .Nav ul li a{
+      color: rgb(255, 255, 255);
+    }
+
+    .Nav ul li{
+      display: block;
+      font-size: 20px;
+      margin-top: 55px;
+      margin-right: 100px;
+      font-weight: lighter;
+  }
+    #Togler:checked ~ ul{
+        left: 0;
+
+    }
+    }
+
+
+
+
+
+    @media(max-width: 494px){
+      .Logo{
+        margin-left: -300px;
+      }
+      label{
+        margin-right: 34px;
+      } 
+    }
+
+
+
+
+
+    @media(max-width: 1430px){
+      .Logo{
+        margin-left: -200px;
+      }
+    }
+
+
+
+    @media(max-width: 412px){
+      .Logo{
+        margin-left: -250px;
+      }
+    }
+
+
+
+
+    @media(max-width: 992px){
+      .Container10 .Abaut{
+        display: block;
+        margin-top: 50px;
+        margin-left: 130px;
+      }
+      .Container10 .Abaut .Port{
+        margin-left: 5px;
+        margin-top: 20px;
+
+    }
+
+    .Container10 .Abaut .Contact1{
+      margin-left: 5px;
+      
+    }
+
+
+    .Container10 .Abaut .Contact2{
+      margin-left: 5px;
+      margin-top: 20px;
+      
+    }
+
+
+    .Container10 .Abaut .Contact3{
+      margin-top: 30px;
+      
+    }
+
+  }
+
+
+
+
+  @media(max-width: 684px){
+    .One{
+      margin-left: -80px;
+      
+    }
+  }
+
+
+  @media(max-width: 446px){
+    .One{
+      margin-left: -200px;
+    }
+  }
+
+
+
+  @media(max-width: 1200px){
+    .Product2{
+      display: block;
+    }
+  }
+
+  
+
+
+
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .Logo1{
+      width: 200px;
+      margin-top: -50px;
+    }
+
+    .Logo{
+        padding-left: 300px;
+        width: 200px;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    .Container{
+        height: 70px;
+        background: rgb(208, 208, 208);
+    }
+
+      #Search{
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        width: 250px;
+        margin-top: 10px;
+        outline: none;
+        font-size: 18px;
+      }
+
+
+    .Banner1{
+        width: 1000px;
+        margin-top: 50px;
+        box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+        border-radius: 5px;
+      }
+
+
+
+      .Abaut{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gray;
+        margin-top: 10px;
+      }
+
+      .Contact{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial;
+      }
+
+
+      .Port{
+        margin-left: 130px;
+        margin-top: -20px;
+        font-family: Arial;
+        margin-right: 50px;
+        font-weight: normal;
+        cursor: pointer;
+        font-size: 14px;
+        
+      }
+
+      #icon{
+        margin-right: 10px;
+        color: white;
+      }
+
+      #Buy-Icon2{
+        font-size: 16px;
+      }
+
+      .Contact1 h3{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 45px;
+
+      }
+
+      .Contact1{
+        margin-left: 100px;
+        margin-right: 50px;
+        margin-top: -15px;
+        cursor: pointer;
+      }
+
+      .Contact1 p{
+        font-size: 14px;
+
+      }
+
+      .Contact2{
+        margin-left: 100px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-right: 130px;
+      }
+
+      .Contact2 p{
+        font-size: 14px;
+      }
+
+      .Contact3{
+        cursor: pointer;
+        margin-top: -40px;
+      }
+
+      .Contact3 i{
+        font-size: 40px;
+        color: rgb(61, 61, 61);
+        margin-right: 10px;
+        cursor: pointer;
+      }
+
+      .Imagee{
+        width: 680px;
+        border-radius: 20px;
+        margin-top: 100px;
+      }
+
+      .Product2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .Product2 h3{
+        font-family: Arial;
+        font-weight: lighter;
+        margin-left: 40px;
+        margin-top: 110px;
+        font-size: 35px;
+      }
+
+      .Product3{
+        width: 35px;
+        margin-left: 40px;
+        margin-top: -10px;
+
+      }
+      .Product4{
+        align-items: center;
+        margin-top: -10px;
+        display: flex;
+      }
+
+      .Epic{
+        font-family: Arial;
+        font-weight: normal;
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 20px;
+      }
+
+      .Works{
+        display: block;
+        font-family: Arial;
+        margin-left: 40px;
+        font-size: 20px;
+        margin-top: 60px;
+        font-weight: normal;
+      }
+
+      .Price{
+        font-family: Arial;
+        font-weight: lighter;
+        margin-left: 40px;
+        font-size: 28px;
+
+      }
+
+      .Price2{
+        display: flex;
+        align-items: center;
+        margin-top: -10px;
+      }
+      .Price1{
+        font-size: 23PX;
+        margin-left: 5px;
+        margin-top: 28px;
+        color: red;
+
+      }
+   
+
+      .BuyNow{
+        margin-left: 40px;
+        cursor: pointer;
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        background-color: rgb(255, 140, 0);
+        color: rgb(0, 0, 0);
+      }
+
+      #Buy-Icon{
+        text-align: center;
+        margin-left: -5px;
+        margin-right: 5px;
+        font-size: 18px;
+
+      }
+      
+      #EpicGames{
+        width: 30px;
+      }
+      
+    
+    
